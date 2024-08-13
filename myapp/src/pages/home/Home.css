@@ -3,5 +3,24 @@
 
     .homeContainer{
         flex: 6;
+
+        h1{
+            display: flex;
+            padding: 10px;
+            min-height: 1vh;
+        }
+
+        p{
+            display: flex;
+            padding: 10px;
+            color: #888;
+            font-size: 20px;
+        }
+
+        .widgets{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
     }
 }

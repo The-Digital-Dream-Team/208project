@@ -43,6 +43,7 @@ const Navbar = () => {
             alt=''
             className='avatar'
             />
+            <div className='avatar-text'>John Smith</div>
           </div>
         </div>
       </div>

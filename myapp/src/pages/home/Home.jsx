@@ -11,6 +11,8 @@ const Home = () => {
         <Sidebar/>
         <div className="homeContainer">
           <Navbar/>
+          <h1>Dashboard</h1>
+          <p>Welcome back, John</p>
           <div className="widgets">
             <Widget/>
             <Widget/>
