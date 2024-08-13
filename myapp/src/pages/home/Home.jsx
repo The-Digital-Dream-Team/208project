@@ -14,10 +14,9 @@ const Home = () => {
           <h1>Dashboard</h1>
           <p>Welcome back, John</p>
           <div className="widgets">
-            <Widget/>
-            <Widget/>
-            <Widget/>
-            <Widget/>
+            <Widget type="user"/>
+            <Widget type="earning"/>
+            <Widget type="balance"/>
           </div>
         </div>
     </div>
