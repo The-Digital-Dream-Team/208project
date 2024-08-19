@@ -1,0 +1,17 @@
+.table{
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Answered{
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+
+        &.Unanswered{
+            color: red;
+            background-color: rgba(189, 3, 74, 0.103);
+        }
+    }
+    
+}

@@ -12,8 +12,8 @@ const List = () => {
     const rows = [
     {
         customer: "Floyd Miles",
-        message: "How can i calculate my import dutiy?",
-        status: "Answered",
+        message: "How can i calculate my import duty?",
+        status: "Unanswered",
         time: "11:55pm",
     },
     {
@@ -46,7 +46,9 @@ const List = () => {
         >
           <TableCell className='tabelCell'>{row.customer}</TableCell>
           <TableCell className='tableCell'>{row.message}</TableCell>
-          <TableCell className='tableCell'>{row.status}</TableCell>
+          <TableCell className='tableCell'>
+            <span className={`status ${row.status}`}>{row.status}</span>
+            </TableCell>
           <TableCell className='tableCell'>{row.time}</TableCell>
         </TableRow>
       ))}
